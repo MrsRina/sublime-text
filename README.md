@@ -2,6 +2,8 @@
 
 my personal configs and mainly themes and stuff, I do not own anything here.
 
+![image](https://github.com/user-attachments/assets/3145bcfe-64be-47e3-89fe-33ad4b436914)
+
 ## Keybinds and Stuff
 
 `ctrl` + `[` or `]`: move between multi-opened files `[` left `]` right  
