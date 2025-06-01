@@ -1,0 +1,4 @@
+# ignore working JSON version
+Neon.tmTheme.JSON
+.DS_Store
+build

@@ -1,0 +1,121 @@
+{
+    "name": "Gray Matter",
+    "style": "Dark",
+    "author": [
+        {
+            "name": "Philip Belesky",
+            "url": "http://philipbelesky.com/",
+            "basedOn": "https://github.com/philipbelesky/gray-matter"
+        },
+    ],
+    "version": "0.10",
+    "editor": {
+        "backgroundColor": "#1A191A",
+        "caretColor": "#29BEEA",
+        "selection": {
+            "color": "#FFFFFF",
+            "backgroundColor": "#1C434D",
+            "unfocusedBackgroundColor": "#1C434D",
+        },
+        "highlight": {
+            "backgroundColor": "#2D2D2D",
+            "unfocusedBackgroundColor": "#2D2D2D"
+        }
+    },
+    "savedSearchesSidebar": {
+        "color": "#BEBEBE",
+        "backgroundColor": "#222122",
+        "highlightedBackgroundColor": "#1C434D",
+        "border": false,
+        "iconColors": {
+            "default": "#616161"
+        },
+    },
+    "resultsList": {
+        "color": "#BEBEBE",
+        "backgroundColor": "#222122",
+        "alternateBackgroundColor": "#1A191A",
+        "selection": {
+            "color": "#FFFFFF",
+            "unfocusedColor": "#FFFFFF",
+            "backgroundColor": "#1C434D",
+            "unfocusedBackgroundColor": "#2D2D2D"
+        },
+        "border": "#222122",
+    },
+    "styles": {
+        "base": {
+            "color": "#BEBEBE",
+        },
+        "h1": {
+            "font": { "style": "bold" },
+            "syntax": { "color" : "#616161" },
+        },
+        "h2": {
+            "font": { "style": "bold" },
+            "syntax": { "color" : "#616161" },
+        },
+        "h3": {
+            "font": { "style": "bold" },
+            "syntax": { "color" : "#616161" },
+        },
+        "h4": {
+            "font": { "style": "bold" },
+            "syntax": { "color" : "#616161" },
+        },
+        "h5": {
+            "font": { "style": "bold" },
+            "syntax": { "color" : "#616161" },
+        },
+        "h6": {
+            "font": { "style": "bold" },
+            "syntax": { "color" : "#616161" },
+        },
+        "horizontalRule": {
+            "color": "#616161",
+            "syntax": { "color" : "#616161" }
+        },
+        "codeBlock": {
+            "color": "#BEBEBE",
+            "backgroundColor": "#222122",
+        },
+        "inlineCode": {
+            "color": "#BEBEBE",
+            "backgroundColor": "#222122",
+        },
+        "blockquote": {
+            "syntax": { "color" : "#616161" },
+        },
+        "list": {
+            "syntax": { "color" : "#616161" },
+        },
+        "emphasis": {
+            "font": { "style": "italic" },
+            "syntax": { "color" : "#616161" }
+        },
+        "strong": {
+            "font": { "style": "bold" },
+            "syntax": { "color" : "#616161" }
+        },
+        "image": {
+            "color": "#BEBEBE",
+            "syntax": { "color" : "#616161" },
+        },
+        "footnote": {
+            "color": "#616161",
+            "syntax": { "color" : "#616161" }
+        },
+        "link": {
+            "color": "#BEBEBE",
+            "syntax": { "color" : "#616161" }
+        },
+        "referenceDefinition": {
+            "color": "#BEBEBE",
+            "syntax": { "color" : "#616161" }
+        },
+        "comment": {
+            "color": "#616161",
+            "font": { "style": "regular" }
+        }
+    }
+}

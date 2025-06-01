@@ -1,0 +1,22 @@
+Neon Color Scheme
++++++++++++++++++
+
+Thank you for installing my Neon Color Scheme! I hope you enjoy using it as much
+as I enjoyed creating it. It looks best when used with a dark UI theme - I use
+SodaReloaded Dark, but there are many other excellent ones available on Package
+Control.
+
+To activate, add this line to your user settings:
+
+    "color_scheme": "Packages/Neon Color Scheme/Neon.sublime-color-scheme",
+
+Or, select `Preferences → Color Scheme…` and choose "Neon" from the list.
+
+If you have any questions, concerns, bugs, improvement suggestions, or anything
+else, feel free to open an issue on Github and I'll do my best to help you out.
+You can also find me on the Twitters, monitoring the Sublime tags on Stack
+Overflow, and hanging out on the Sublime Discord server.
+
+    @MattDMo
+
+https://github.com/MattDMo/Neon-color-scheme

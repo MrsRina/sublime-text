@@ -1,0 +1,13 @@
+# Sublime
+**/Backup/
+**/Local
+**/0_package_control_loader.sublime-package
+**/*.user-ca-bundle
+**/*.merged-ca-bundle
+**/*.system-ca-bundle
+**/*.sublime-license
+**/Lib/
+**/Log/
+**/Trash*/
+Packages/User/WakaTime.sublime-settings
+Packages/WakaTime/

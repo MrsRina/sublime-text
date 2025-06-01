@@ -1,0 +1,22 @@
+[
+	{ "keys": ["ctrl+alt"], "command": "toggle_terminus_panel", "args": {
+            "cwd": "$folder"        
+        }
+    },
+    { "keys": ["ctrl+alt+\\"], "command": "replace_all", "args": {"close_panel": true},
+         "context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
+    },
+    {
+         "keys": ["ctrl+alt+enter"], "command": "terminus_open", "args": {
+             "cwd": "$folder"
+         }
+    },
+    { "keys": ["ctrl+["], "command": "focus_to_left" },
+    { "keys": ["ctrl+]"], "command": "focus_to_right" },
+    {
+        "keys": ["ctrl+\\"], "command": "show_panel",
+        "args": {"panel": "output.exec"},
+        "context": [ { "key": "panel_visible", "operand": false } ]
+    },
+    { "keys": ["f3"], "command": "toggle_side_bar" },
+]

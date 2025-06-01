@@ -1,0 +1,28 @@
+{
+	"block_caret": true,
+	"color_scheme": "Packages/wasted - pinky2-white.tmTheme",
+	"font_face": "Comic Mono",
+	//"font_face": "JetBrains Mono",
+	"font_size": 14,
+	"gutter": true,
+	"goto_anything_exclude_gitignore": true,
+	"index_exclude_gitignore": true,
+	"index_files": true,
+	"index_workers": 4,
+	"margin": 2,
+	"original_color_scheme": "Packages/Color Scheme - Gray Matter/Gray Matter Light.tmTheme",
+	"translate_tabs_to_spaces": true,
+	//"overlay_scroll_bars": "disabled",
+	"theme": "Adaptive.sublime-theme",
+	/*"translate_tabs_to_spaces": true,*/
+	"draw_indent_guides": false,
+	"ignored_packages":
+	[
+		"C++ Starting Kit",
+		"Discord Rich Presence",
+		"LSP-ruff",
+		"python-black",
+		"SublimeLinter",
+		"Vintage",
+	],
+}

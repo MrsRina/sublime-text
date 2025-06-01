@@ -1,0 +1,77 @@
+<!-- COLOR SCHEME TEST "gray-matter/Gray Matter Light.tmTheme" "MultiMarkdown" -->
+
+## MultiMarkdown Tests
+
+<!-- this should be an unreadable comment  -->
+
+### Images
+
+![Alt Test](/path/to/image)
+
+![image_attrs][]
+
+![This is the figure caption][fig_id]
+
+[fig_id]: mmd.png "This is where the title goes" height=45px width=120px
+[image_attrs]: img.jpg "Title goes here" height=30px width=100px
+
+### Tables
+
+| First Header | Second Header |         Third Header |
+<!--    ^^^^^^ fs=bold  -->
+| :----------- | :-----------: | -------------------: |
+| First row    |      Data     | Very long data entry |
+<!--    ^^^ fg=#3C3C3C  -->
+| Second row   |    **Cell**   |               *Cell* |
+[a caption]
+
+|              | Grouping                    ||
+| First Header | Second Header | Third Header |
+| ------------ | :-----------: | -----------: |
+| Content      | *Long Cell*                 ||
+| Content      | **Cell**      | Cell         |
+| New section  | More          | Data         |
+
+### Footnotes
+
+Here is some text containing a footnote.[^somesamplefootnote] Here's a more advanced
+                            <!--        ^^^^^^^^^ fg=#B9B9B9  -->
+footnote[^longer] and a [general reference] link.
+
+[^somesamplefootnote]: Here is the text of the footnote itself.
+[^longer]: Here is the text of the footnote itself. It is...
+[general reference]: www.dotcom.com
+
+    ... a bit longer though.
+
+    > with extra paragraphs
+
+    #### and other stuff
+
+### Bibliographies
+
+This is a statement that should be attributed to its source[p. 23][#Doe:2006].
+
+[#Doe:2006]: John Doe. *Some Big Fancy Book*. Vanity Press, 2006.
+<!--         ^^^^^^^^^ fg=#3C3C3C  -->
+
+This is a statement without a locator source[][#Doe:2009].
+
+[#Doe:2009]: John Doe. *Another Big Fancy Book*. Vanity Press, 2009.
+
+This is a combination of citations[p. 22][#Doe:2006][p. 10][#Doe:2009]. As is this [#Doe:2009][][#Doe:2006][].
+
+[#Doe:2011]: John Doe. *The Final Big Fancy Book*.  Vanity Press, 2011.
+[Not cited][#Doe:2012]
+
+### Definition Lists
+
+Apple
+:   Pomaceous fruit of plants of the genus Malus in
+    the family Rosaceae.
+:   An american computer company.
+
+Orange
+:   The fruit of an evergreen tree of the genus Citrus.
+
+## End of Document

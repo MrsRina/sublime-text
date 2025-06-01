@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+
+Key colours                     : Light   > Dark
+
+Standard text                   : #3C3C3C > #BEBEBE
+Muted text  (for syntax)        : #B9B9B9 > #616161
+
+Base background                 : #F5F5F5 > #1A191A
+Light background highlight      : #EDEDED > #222122
+
+Suggested cursor colour         : #29BEEA
+Selection highlight             : #C3E8F3 > #1C434D
+(must be less dull than cursor)
+Dull Selection highlight        : #E5E5E5 > #323232
+(for when selection is in an unfocused state; only used by The Archive)
+
+-->
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>Gray Matter Light</string>
+  <key>comment</key>
+  <string>https://github.com/philipbelesky/gray-matter</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key><!-- Default foreground color for the view. Affects file contents, the gutter, rulers and guides. -->
+        <string>#3C3C3C</string>
+        <key>background</key><!-- Default background color of the view (and gutter). -->
+        <string>#F5F5F5</string>
+
+        <key>invisibles</key><!-- Not implemented? -->
+        <string>#B9B9B9</string>
+        <key>caret</key>
+        <string>#29BEEA</string>
+
+        <key>lineHighlight</key>
+        <string>#EDEDED</string>
+        <key>rangeHighlight</key><!-- VSC: Background color of range highlighted, like by Quick open and Find features. -->
+        <string>#EDEDED</string>
+        <key>hoverHighlight</key><!-- VSC: Background color when hovered. -->
+        <string>#EDEDED</string>
+        <key>referenceHighlight</key><!-- VSC: Background color when finding all references. -->
+        <string>#EDEDED</string>
+
+        <!-- SELECTION -->
+        <key>selection</key>
+        <string>#C3E8F3</string><!--- A light blue highlight -->
+        <key>selection_border_width</key>
+        <string>0</string>
+        <key>selection_corner_style</key>
+        <string>round</string>
+        <key>inactiveSelection</key><!-- Selection color when the app is not in Focus -->
+        <string>#C3E8F3</string>
+        <key>selectionHighlight</key><!-- VSC: Background color of regions highlighted while selecting -->
+        <string>#C3E8F3</string>
+
+        <!-- FIND -->
+        <key>findHighlight</key><!-- Block background for when searching for a term -->
+        <string>#C3E8F3</string>
+        <key>findHighlightForeground</key><!-- Text color for when searching for a term -->
+        <string>#3C3C3C</string>
+        <key>findRangeHighlight</key><!-- VSC: Background color of regions selected for search -->
+        <string>#29BEEA</string>
+        <key>findMatchHighlight</key><!-- VSC: Background color of regions matching the search -->
+        <string>#C3E8F3</string>
+        <key>currentFindMatchHighlight</key><!-- VSC: Background color of the current region matching the search -->
+        <string>#C3E8F3</string>
+
+        <key>misspelling</key><!-- Sublime text spelling underline -->
+        <string>#3C3C3C</string>
+        <key>fold_marker</key><!-- Sublime text folding [...] -->
+        <string>#C3E8F3</string>
+
+        <key>wordHighlight</key><!-- VSC: ?? -->
+        <string>#C3E8F3</string>
+        <key>wordHighlightStrong</key><!-- VSC: ?? -->
+        <string>#29BEEA</string>
+
+        <key>activeLinkForeground</key><!-- VSC: Color of active links. -->
+        <string>#29BEEA</string>
+        <key>gotoDefinitionLinkForeground</key><!-- VSC: ?? -->
+        <string>#29BEEA</string>
+
+        <key>gutter</key>
+        <string>#F5F5F5</string>
+        <key>gutterForeground</key>
+        <string>#B9B9B9</string>
+
+        <key>guide</key><!-- The sidebar for parts that can be expanded/contracted -->
+        <string>#F5F5F5</string><!-- Hiding it (blend into background) -->
+
+      </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Comments</string><!-- (inline; i.e. like this) -->
+        <key>scope</key>
+        <string>comment, comment punctuation</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string></string>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown Structural Elements</string><!-- (ie bold/italic/heading/list marks) -->
+        <key>scope</key>
+        <string>punctuation.definition.constant.markdown,punctuation.definition.bold.markdown, punctuation.definition.italic.markdown,punctuation.definition.heading.markdown,punctuation.definition.heading.begin.markdown,punctuation.definition.heading.end.markdown,punctuation.definition.heading.setext.markdown,punctuation.definition.list_item.markdown,markup.list.numbered.bullet.markdown,punctuation.definition.bold.begin.markdown,punctuation.definition.bold.end.markdown,punctuation.definition.italic.begin.markdown,punctuation.definition.italic.end.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown Structural Elements</string><!-- For headings #s dont stylise them -->
+        <key>scope</key>
+        <string>punctuation.definition.heading.begin.markdown,punctuation.definition.heading.end.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string>normal</string>
+        </dict>
+     </dict>
+     <dict>
+      <key>name</key>
+      <string>Markdown Heading Text</string><!-- Darken all headings -->
+      <key>scope</key>
+      <string>markup.heading.1.markdown,markup.heading.2.markdown,markup.heading.3.markdown,markup.heading.4.markdown,markup.heading.5.markdown,markup.heading.6.markdown,markup.heading.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#3C3C3C</string>
+      </dict>
+    </dict>
+     <dict>
+      <key>name</key>
+      <string>Markdown Heading Text</string><!-- Bold Italics H1-H2 -->
+      <key>scope</key>
+      <string>markup.heading.1.markdown,markup.heading.2.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown Heading Text</string><!-- Bold H1-H4 -->
+      <key>scope</key>
+      <string>markup.heading.3.markdown,markup.heading.4.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown Bold Text</string>
+      <key>scope</key>
+      <string>markup.bold.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>fontStyle</key>
+          <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown Italic Text</string>
+      <key>scope</key>
+      <string>markup.italic.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Blockquote</string>
+      <key>scope</key>
+      <string>markup.quote.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>fontStyle</key>
+          <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown separators and hrs</string>
+        <key>scope</key>
+        <string>meta.separator.markdown,meta.separator.thematic-break.markdown, punctuation.definition.thematic-break.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown Link Grammar syntax</string><!-- (like []) -->
+      <key>scope</key>
+      <string>punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.link.markdown, punctuation.definition.link.begin.markdown, punctuation.definition.link.end.markdown, punctuation.definition.metadata.markdown,punctuation.definition.blockquote.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>foreground</key>
+          <string>#B9B9B9</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown Link Reference</string><!-- the round brackets around links, and the second bit of text/title -->
+      <key>scope</key>
+      <string>punctuation.definition.metadata.markdown,string.other.link.title.markdown,meta.link.inline.markdown,meta.link.reference.markdown,string.other.link.description.title.markdown,meta.link.reference.literal.markdown,punctuation.separator.key-value.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>foreground</key>
+          <string>#B9B9B9</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown Image</string><!-- The ![] in -->
+      <key>scope</key>
+      <string>meta.image.inline.markdown,punctuation.definition.image.begin.markdown,punctuation.definition.image.end.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>foreground</key>
+          <string>#B9B9B9</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown Image</string><!-- The ![] in -->
+      <key>scope</key>
+      <string>meta.image.reference.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>foreground</key>
+          <string>#B9B9B9</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown Link Actual Text</string><!-- (ie [THIS TEXT][#Doe:2011]) -->
+      <key>scope</key>
+      <string>string.other.link.title.markdown</string>
+      <key>settings</key>
+      <dict>
+          <key>foreground</key>
+          <string>#3C3C3C</string>
+      </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markup: Underline</string>
+        <key>scope</key>
+        <string>markup.underline</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Escaped Markdown</string>
+        <key>scope</key>
+        <string>constant.character.escape.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown code blocks and inline code</string>
+        <key>scope</key>
+        <string>markup.raw.block.markdown,markup.raw.inline.markdown,markup.raw.code-fence.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>background</key>
+            <string>#EDEDED</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown code block/inline code syntax </string><!-- like `code` or ~~~ -->
+        <key>scope</key>
+        <string>punctuation.definition.raw.code-fence.begin.markdown,punctuation.definition.raw.code-fence.end.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Markdown inline html</string><!--  -->
+        <key>scope</key>
+        <string>meta.tag.inline.any.html,meta.tag.block.any.html</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+<!--
+MULTIMARKDOWN
+-->
+    <dict>
+        <key>name</key>
+        <string>MultiMarkdown Meta</string>
+        <!-- A document's title block -->
+        <key>scope</key>
+        <string>meta.header.multimarkdown,keyword.other.multimarkdown,string.unquoted.multimarkdown,punctuation.separator.key-value.multimarkdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>MultiMarkdown Meta</string>
+        <!-- A document's title block -->
+        <key>scope</key>
+        <string>constant.other.reference.link.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>MultiMarkdown Table Syntax</string><!--  -->
+        <key>scope</key>
+        <string>punctuation.definition.table-cell-alignment.markdown,punctuation.section.table-header.markdown,punctuation.separator.table-cell.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>MultiMarkdown Table Headers</string><!--  -->
+        <key>scope</key>
+        <string>meta.table.header.markdown,meta.table.header.markdown-gfm,   meta.table.header-separator.markdown-gfm</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string>bold</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>MultiMarkdown Foonotes</string><!-- First word of a definition link; overrides inline link gray -->
+        <key>scope</key>
+        <string> meta.link.reference.literal.footnote-id.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>MultiMarkdown table syntax</string><!-- First word of a definition link; overrides inline link gray -->
+        <key>scope</key>
+        <string>meta.link.reference.def.markdown markup.underline.link.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#3C3C3C</string>
+        </dict>
+    </dict>
+<!--
+MARKDOWN EXTENDED
+-->
+    <dict>
+        <key>name</key>
+        <string>Markdown Extended YAML</string>
+        <!-- A document's title block -->
+        <key>scope</key>
+        <string>markup.raw.yaml.front-matter</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+<!--
+PANDOC
+-->
+    <dict>
+        <key>name</key>
+        <string>Inline Footnote</string>
+        <!-- The ^somesamplefootnote in [^somesamplefootnote]-->
+        <key>scope</key>
+        <string>entity.name.reference.link.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Inline Footnote</string>
+        <!-- IE All of "[^1]"-->
+        <key>scope</key>
+        <string>footnote.delim.pandoc</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Inline Citation</string>
+        <!-- IE All of "[@smith04; @doe99]"-->
+        <key>scope</key>
+        <string>citation.bracket.pandoc</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Footnote Reference</string>
+        <!-- IE All of "[^1]:" -->
+        <key>scope</key>
+        <string>footnote.num.pandoc</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#B9B9B9</string>
+        </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Bock Quote</string>
+        <!-- IE All of "[^1]:" -->
+        <key>scope</key>
+        <string>quote.pandoc</string>
+        <key>settings</key>
+        <dict>
+            <key>fontStyle</key>
+            <string>italic</string>
+        </dict>
+    </dict>
+<!--
+GITGUTTER
+-->
+    <dict>
+      <key>name</key>
+      <string>GitGutter (All)</string>
+      <key>scope</key>
+      <string>markup.deleted.git_gutter,markup.inserted.git_gutter,markup.changed.git_guttermmarkup.ignored.git_gutter,markup.untracked.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#B9B9B9</string>
+      </dict>
+    </dict>
+<!--
+OVERRIDES
+-->
+    <dict>
+        <key>name</key>
+        <string>Markdown Meta</string>
+        <!-- Earlier we set all of the image scope to gray (so that ! would be colored); here we reset the title to be normal again -->
+        <key>scope</key>
+        <string>string.other.link.description.markdown</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#3C3C3C</string>
+        </dict>
+    </dict>
+<!--
+END
+-->
+  </array>
+  <key>uuid</key>
+  <string>2250B6DC-C3BE-4BE8-B815-17B11D90BD6G</string>
+</dict>
+</plist>

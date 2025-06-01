@@ -1,0 +1,56 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+  "variables":
+  {
+    "font_face": "Comic Mono",
+    "font_size": 14,
+  },
+  "rules":
+  [
+    {
+      "class": "icon_folder",
+      "layer0.texture": "Theme - Default/common/5.png",
+      "layer0.tint": "white",
+      "layer0.opacity": 0.6,
+      "content_margin": [9, 9]
+    },
+    {
+      "class": "icon_folder",
+      "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+      "layer0.texture": "Theme - Default/common/5.png",
+      "content_margin": [9, 8]
+    },
+    {
+      "class": "icon_file_type",
+      "layer0.tint": "black",
+      "layer0.texture": "Theme - Default/common/5.png",
+      "layer0.opacity": 0.6,
+      "content_margin": [8, 8]
+    },
+    {
+      "class": "disclosure_button_control",
+      "settings": ["!tree_row:expanded"],
+      "layer0.opacity": 0.1
+    },
+    {
+      "class": "disclosure_button_control",
+      "settings": ["tree_row:expanded"],
+      "layer0.opacity": 0.1
+    },
+    {
+      "class": "sidebar_tree",
+      "indent": 10
+    },
+    {
+      "class": "sidebar_label",
+      "content_margin": [0, 0],
+      "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+      "settings": ["bold_folder_labels"],
+      "font.bold": true,
+    },
+    {
+      "class": "sidebar_container",
+      "content_margin": [0, -28, 0, 0], // <= -10 is the top margin
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+// Settings in here override those in "LSP-clangd/LSP-clangd.sublime-settings"
+{
+  "initializationOptions": {
+    "clangd.header-insertion": "never",
+    //"clangd.compile-commands-dir": "./cmake-build",
+	  "clangd.clang-tidy": "0",
+	  "clangd.all-scopes-completion": "1",
+    //"clangd.completion-style": "never",
+    "clangd.function-arg-placeholders": "0",
+  },
+  "binary": "auto",
+}

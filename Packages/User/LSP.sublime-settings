@@ -1,0 +1,13 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
+{
+  "show_code_actions": "",
+  "diagnostics_highlight_style": {
+    "error": "",
+    "warning": "",
+    "info": "",
+    "hint": ""
+  },
+  "document_highlight_style": "",
+  "show_code_actions": "",
+  "show_diagnostics_severity_level": 0,
+}

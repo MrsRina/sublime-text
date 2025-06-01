@@ -1,0 +1,14 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+    "variables":
+    {
+    },
+    "rules":
+    [
+            {
+        "class": "scroll_corner_control",
+        "layer0.tint" : [30, 30, 30],
+        "layer0.opacity": 1.0
+    }
+    ]
+}
