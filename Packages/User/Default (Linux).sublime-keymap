@@ -19,4 +19,6 @@
         "context": [ { "key": "panel_visible", "operand": false } ]
     },
     { "keys": ["f3"], "command": "toggle_side_bar" },
+    { "keys": [""], "command": "next_result" },
+    { "keys": ["shift+f4"], "command": "prev_result" },
 ]

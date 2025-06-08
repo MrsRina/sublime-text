@@ -20,9 +20,9 @@
         <key>lineHighlight</key>
         <string>#fdeff2</string>
         <key>selection</key>
-        <string>#eda4b2</string>
+        <string>#ffffff</string>
         <key>selectionForeground</key>
-        <string>#020202</string>
+        <string>#eda4b2</string>
         <key>findHighlight</key>
         <string>#FFE792</string>
         <key>findHighlightForeground</key>
