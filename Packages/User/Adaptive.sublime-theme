@@ -43,7 +43,7 @@
     },
     {
       "class": "sidebar_label",
-      "fg": "color(var(--background) blend(white 0%))",
+      "fg": "color(var(--background) blend(black 0%))",
       "font.face": "var(font_face)",
       "font.size": "var(font_size)"
     },

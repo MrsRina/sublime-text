@@ -1,8 +1,8 @@
 {
 	"block_caret": true,
-	"color_scheme": "Packages/wasted - pinky-white.tmTheme",
-	//"font_face": "Comic Mono",
-	"font_face": "JetBrains Mono BOLD",
+	"color_scheme": "Packages/wasted - black.tmTheme",
+	"font_face": "Comic Mono",
+	//"font_face": "JetBrains Mono BOLD",
 	//"font_face": "Comic Sans MS",
 	"font_size": 21,
 	"gutter": true,
