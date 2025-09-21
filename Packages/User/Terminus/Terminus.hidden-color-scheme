@@ -1,27 +1,27 @@
 {
     "name": "Terminus",
     "variables": {
-        "background": "#fdeff3",
-        "foreground": "#eda4b2",
+        "background": "#f7e2ea",
+        "foreground": "#947580",
         "black": "#000000",
-        "red": "#eda4b2",
-        "green": "#eda4b2",
-        "brown": "#eda4b2",
-        "blue": "#eda4b2",
-        "magenta": "#eda4b2",
-        "cyan": "#eda4b2",
+        "red": "#ba8f9e",
+        "green": "#ba8f9e",
+        "brown": "#ba8f9e",
+        "blue": "#ba8f9e",
+        "magenta": "#ba8f9e",
+        "cyan": "#ba8f9e",
         "white": "#888888",
         "light_black": "color(#888888 l(+ 15%))",
-        "light_red": "color(#eda4b2 l(+ 15%))",
-        "light_green": "color(#eda4b2 l(+ 15%))",
-        "light_brown": "color(#eda4b2 l(+ 15%))",
-        "light_blue": "color(#eda4b2 l(+ 15%))",
-        "light_magenta": "color(#eda4b2 l(+ 15%))",
-        "light_cyan": "color(#eda4b2 l(+ 15%))",
+        "light_red": "color(#ba8f9e l(+ 15%))",
+        "light_green": "color(#ba8f9e l(+ 15%))",
+        "light_brown": "color(#ba8f9e l(+ 15%))",
+        "light_blue": "color(#ba8f9e l(+ 15%))",
+        "light_magenta": "color(#ba8f9e l(+ 15%))",
+        "light_cyan": "color(#ba8f9e l(+ 15%))",
         "light_white": "#ffffff",
-        "caret": "#eda4b2"
+        "caret": "#947580"
     },
     "globals": {
-        "background": "#fdeff2"
+        "background": "#f7e2e9"
     }
 }
