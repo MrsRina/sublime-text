@@ -26,7 +26,7 @@ Rust works okay.
 
 ## My Themes and Color Schemes
 
-Go to select color schemes and type `wasted`, you will find all my color schemes. This is called wasted because of my life, wasted love in someone who lied to me and made my heart as a joy..
+Go to select color schemes and type `wasted`, you will find all my color schemes.
 
 My unique theme is the adpative where there is a small tweak on icons and labels for example hidden `FOLDERS`.
 
